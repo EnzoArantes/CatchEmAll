@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		57252DC42D878AE0009823C1 /* Creatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57252DC32D878AE0009823C1 /* Creatures.swift */; };
+		57252DC62D87922F009823C1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57252DC52D87922F009823C1 /* DetailView.swift */; };
+		57252DC82D879457009823C1 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57252DC72D879457009823C1 /* Creature.swift */; };
+		57252DCA2D879669009823C1 /* CreatureDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57252DC92D879669009823C1 /* CreatureDetail.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		57252DA12D878589009823C1 /* CatchEmAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchEmAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57252DC32D878AE0009823C1 /* Creatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creatures.swift; sourceTree = "<group>"; };
+		57252DC52D87922F009823C1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		57252DC72D879457009823C1 /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		57252DC92D879669009823C1 /* CreatureDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +56,10 @@
 		57252D982D878589009823C1 = {
 			isa = PBXGroup;
 			children = (
+				57252DC32D878AE0009823C1 /* Creatures.swift */,
+				57252DC92D879669009823C1 /* CreatureDetail.swift */,
+				57252DC72D879457009823C1 /* Creature.swift */,
+				57252DC52D87922F009823C1 /* DetailView.swift */,
 				57252DA32D878589009823C1 /* CatchEmAll */,
 				57252DA22D878589009823C1 /* Products */,
 			);
@@ -132,6 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57252DC42D878AE0009823C1 /* Creatures.swift in Sources */,
+				57252DC82D879457009823C1 /* Creature.swift in Sources */,
+				57252DCA2D879669009823C1 /* CreatureDetail.swift in Sources */,
+				57252DC62D87922F009823C1 /* DetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +171,6 @@
 				INFOPLIST_FILE = CatchEmAll/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
@@ -183,7 +201,6 @@
 				INFOPLIST_FILE = CatchEmAll/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;

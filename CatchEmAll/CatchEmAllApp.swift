@@ -11,7 +11,7 @@ import SwiftUI
 struct CatchEmAllApp: App {
     var body: some Scene {
         DocumentGroup(newDocument: CatchEmAllDocument()) { file in
-            ContentView(document: file.$document)
+            CreaturesListView()
         }
     }
 }

@@ -9,8 +9,6 @@ Displays Details: Shows each Pokémon’s height, weight, and image in a clean S
 Simple & Engaging: Designed for a smooth and enjoyable user experience while exploring your favorite Pokémon.
 Getting Started
 
-Clone the Repo:
-git clone https://github.com/your-username/CatchEmAll.git
 Open in Xcode:
 Launch the project with Xcode.
 Build & Run:

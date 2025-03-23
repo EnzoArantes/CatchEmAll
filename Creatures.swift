@@ -15,7 +15,7 @@ class Creatures {
         var results: [Creature]
     }
     
-
+    
     
     var urlString = "https://pokeapi.co/api/v2/pokemon/"
     var count = 0
@@ -51,6 +51,22 @@ class Creatures {
         } catch {
             print("😡 ERROR: Could not create a URL from \(urlString)")
             isLoading = false
+        }
+    }
+    
+    func loadNextIfNeeded(creature: Creature) async {
+        guard let lastCreature = creaturesArray.last else { return }
+        if creature.id == lastCreature.id && urlString.hasPrefix("http") {
+            await getData()
+        }
+    }
+    
+    func loadAll () async {
+        Task { @MainActor in
+            guard urlString.hasPrefix("http") else { return }
+            
+            await getData() // get next page of data
+            await loadAll() // call loadAll again - will stop when all pages are retrieved
         }
     }
 }
